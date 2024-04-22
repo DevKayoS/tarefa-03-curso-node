@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="tailwind.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarefa 03</title>
+</head>
+<body class="bg-zinc-900 text-zinc-100">
+  <div class="bg-zinc-600/65 w-full flex justify-center">
+    <h1 class="text-3xl py-5">Projeto Express</h1>
+  </div>
+  <div class="mt-24 p-4 flex flex-col m-auto h-72 w-[650px] rounded-md shadow-lg shadow-cyan-500 border border-zinc-600/65 bg-zinc-600/65">
+    <h1 class="text-cyan-500 text-3xl font-medium">
+      Sobre esse projeto:
+    </h1>
+    <p class="text-xl">É um projeto simples para treinar coisas básicas que aprendi durante o módulo de introdução ao express, e essa é a rota principal.
+
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam aspernatur at animi! Modi velit voluptatem natus amet blanditiis fugiat molestias, itaque sapiente! Optio provident inventore natus quod, rem nobis sed?
+    </p>
+  </div>
+  <div class="h-px w-full mt-16  mb-24"/>
+  <div >
+    <form class="items-center gap-2 flex flex-col m-auto h-72 w-[650px] rounded-md shadow-lg shadow-cyan-500 border border-zinc-600/65 bg-zinc-600/65" action="/router/add" method="POST">
+      <div class="text-xl flex flex-col gap-2 ">
+        <p >Digite seu nome:</p>
+        <input class="bg-zinc-600/30 rounded-md p-2 w-full outline-none" type="text" name="name" placeholder="Nome">
+      </div>
+      <div class="text-xl flex flex-col gap-2 ">
+        <p>Digite seu email:</p>
+        <input class="bg-zinc-600/30 rounded-md p-2 outline-none" type="email" name="age" placeholder="example@example.com">
+      </div>
+      <div class="text-xl">
+        <input class="bg-zinc-600/30 rounded-md p-2 hover:bg-cyan-700 cursor-pointer" type="submit" value="cadastrar">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
